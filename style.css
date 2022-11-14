@@ -1,0 +1,38 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+body{
+    background-size: cover;
+}
+
+#song_name{
+    margin: 15px;
+    font-size: 23px;
+    margin-top: 20px;
+
+}
+
+canvas
+{
+    margin-bottom: 200px;
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(233, 74, 95);}
+    to {box-shadow: 1px 1px 38px #47f8a6;}
+  
+  }
